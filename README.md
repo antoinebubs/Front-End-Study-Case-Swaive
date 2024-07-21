@@ -4,6 +4,9 @@ In the project directory, you can run:
 
 ### `npm install`
 
+Create a file named ".env" at the root of the project directory, add the variable and put you API KEY : REACT_APP_API_KEY="{your API KEY}"
+See more at [text](https://developer.themoviedb.org/reference/intro/getting-started)
+
 ### `npm start`
 
 Runs the app in the development mode.\
