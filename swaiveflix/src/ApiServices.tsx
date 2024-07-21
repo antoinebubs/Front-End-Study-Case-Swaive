@@ -2,12 +2,12 @@ import axios from "axios";
 
 const baseURL = "https://api.themoviedb.org/3/";
 
+const { REACT_APP_API_KEY } = process.env;
 export const options = {
   method: "GET",
   headers: {
     accept: "application/json",
-    Authorization:
-      "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzMmM2OGZhMTc3ZWVjYTI2Y2JiMTg5ZTVmZGExMWE1NiIsIm5iZiI6MTcyMTI0MjAwNC4wMTUzNywic3ViIjoiNjY5ODA4NmYwMzViYjY3NmFjZTgxZDljIiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.ff7yZcVi5SVoKzSdmuh23UAkfcE1C5tKSFMjaInOh6o",
+    Authorization: `Bearer ${REACT_APP_API_KEY}`,
   },
 };
 // faire une methode search movies et load popular movies
