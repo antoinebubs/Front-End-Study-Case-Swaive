@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
-
 import MovieCard from "./components/MovieCard";
 import {
   Box,

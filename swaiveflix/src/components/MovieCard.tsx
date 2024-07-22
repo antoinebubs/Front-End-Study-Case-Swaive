@@ -21,7 +21,10 @@ const handleImageError = (event: any) => {
 export default function ImgMediaCard(props: MovieCardProps) {
   const { data, onClick } = props;
   return (
-    <Card sx={{ maxWidth: 400, margin: 2, position: "relative" }}>
+    <Card
+      sx={{ maxWidth: 400, margin: 2, position: "relative" }}
+      onClick={onClick}
+    >
       <CardMedia
         component="img"
         height="250"
