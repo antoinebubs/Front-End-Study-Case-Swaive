@@ -11,7 +11,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { Close } from "@mui/icons-material";
 
 const Search = styled("div")(({ theme }) => ({
-  position: "absolute", // Fix the position to the right
+  position: "absolute",
   right: theme.spacing(2),
   display: "flex",
   alignItems: "center",

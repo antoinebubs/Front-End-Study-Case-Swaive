@@ -44,30 +44,3 @@ export async function getDetailsById(id: number) {
     console.log(e);
   }
 }
-// const handleClick = () => {
-//   axios
-//     .get(
-//       `https://api.themoviedb.org/3/movie/${data.id}?language=en-US`,
-//       options
-//     )
-//     .then(function (response) {
-//       props.setDetails(response.data.results);
-//       console.log(response);
-//     })
-//     .catch(function (error) {
-//       console.log(error);
-//     });
-// };
-
-// export default async function calls(query: string) {
-//   const url = query
-//     ? `https://api.themoviedb.org/3/search/movie?query=${query}&include_adult=false&language=en-US&page=1`
-//     : "https://api.themoviedb.org/3/movie/popular?language=en-US&page=1";
-//   try {
-//     const r = await axios.get(url, options);
-//     console.log(r);
-//     return r.data.results;
-//   } catch (e) {
-//     console.log(e);
-//   }
-// }
