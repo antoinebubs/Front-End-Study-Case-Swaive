@@ -10,7 +10,6 @@ export const options = {
     Authorization: `Bearer ${REACT_APP_API_KEY}`,
   },
 };
-// faire une methode search movies et load popular movies
 
 export async function searchMovie(query: string) {
   const url = `${baseURL}search/movie?query=${query}&include_adult=false&language=en-US&page=1`;
