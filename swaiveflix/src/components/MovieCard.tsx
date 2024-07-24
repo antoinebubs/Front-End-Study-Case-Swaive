@@ -3,7 +3,6 @@ import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Movie } from "../types/Movie";
 
@@ -45,11 +44,9 @@ export default function ImgMediaCard(props: MovieCardProps) {
           {data.release_date}
         </Typography>
       </CardContent>
-      <CardActions sx={{ position: "absolute", bottom: 0, left: 0 }}>
-        <Button size="small" onClick={onClick} sx={{ color: "black" }}>
-          Learn More
-        </Button>
-      </CardActions>
+      <CardActions
+        sx={{ position: "absolute", bottom: 0, left: 0 }}
+      ></CardActions>
     </Card>
   );
 }

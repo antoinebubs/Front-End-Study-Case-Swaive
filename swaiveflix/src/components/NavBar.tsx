@@ -9,6 +9,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Close } from "@mui/icons-material";
+import { Button } from "@mui/material";
 
 const Search = styled("div")(({ theme }) => ({
   position: "absolute",
@@ -91,7 +92,12 @@ export default function SearchAppBar(props: SearchAppBarProps) {
             >
               SWAIVEFLIX
             </Typography>
+            <Button>Home</Button>
+            <Button>Series</Button>
+            <Button>Films</Button>
+            <Button>Popular now</Button>
           </Box>
+
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
