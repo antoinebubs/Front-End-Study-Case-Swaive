@@ -1,4 +1,4 @@
-# Hello and Welcome to SwaiveFlix
+# Hello and Welcome to Movie-app
 
 In the project directory, you can run:
 
