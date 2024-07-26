@@ -4,7 +4,7 @@ In the project directory, you can run:
 
 ### `npm install`
 
-Create a file named ".env" at the root of the project directory, add the variable and put you API KEY : REACT_APP_JWT_TOKEN="{your token}"
+Create a file named ".env" at the root of the project directory, add the variable and put you token : REACT_APP_JWT_TOKEN="{your token}"
 See more at [text](https://developer.themoviedb.org/reference/intro/getting-started)
 
 ### `npm start`
